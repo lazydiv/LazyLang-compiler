@@ -1,0 +1,13 @@
+// Sample LazyLang program
+
+lazy x = 10
+lazy y = 20
+
+lazy sum = x + y
+lazy prod = x * y
+
+if x < y {
+    print(sum)
+} el {
+    print(prod)
+}

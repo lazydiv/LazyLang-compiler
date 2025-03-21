@@ -1,0 +1,32 @@
+// Example LazyLang program demonstrating conditionals
+
+lazy x = 15
+lazy y = 10
+lazyArray nums = [1, 2,3]
+lazyPrint(nums)
+lazyPrint(x)
+if x >= y {
+    lazyPrint(x)
+} el {
+   lazyPrint(y)
+}
+
+lazy a = 5
+lazy b = 5
+
+
+if nums[0] == 1 {
+    lazyPrint(1)
+} el {
+    lazyPrint(2)
+}
+
+if a < b {
+    lazyPrint(100)
+} el {
+    if a > b {
+        lazyPrint(200)
+    } el {
+        lazyPrint(300)
+    }
+}

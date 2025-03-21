@@ -1,0 +1,16 @@
+
+lazy a = 10
+lazy b = 5
+
+lazy sum = a + b
+lazy difference = a - b
+lazy product = a * b
+lazy quotient = a / b
+lazy precedence = a + b * a
+lazyPrint(precedence)
+lazyPrint(sum)
+lazyPrint(difference)
+lazyPrint(product)
+lazyPrint(quotient)
+
+

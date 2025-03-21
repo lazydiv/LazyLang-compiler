@@ -1,0 +1,4 @@
+lazyArray nums = [1, 2, 3]
+lazy x = nums[2]
+lazyPrint(x)
+
